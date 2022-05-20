@@ -26,7 +26,7 @@ function insertDom() {
     "
     >
     <h2>Saic Institute Of Management Technology</h2>
-    <img src="/img/logo.png" alt="" style="width: 200px" />
+    <img src="img/logo.png" alt="" style="width: 200px" />
     <div class="subject-info" style="display:flex; flex-direction: column; justify-content:center; align-items:center;">
     <h3>Subject Name : <span id="subjectName"></span></h3>
     <h3>Subject Code : <span id="subjectCode"></span></h3>
