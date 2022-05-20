@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 90%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./img/main-bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-page {
+    height: 50%;
+    width: 60%;
+    border-radius: 1rem;
+    background-image: url('./img/formBg.jpg');
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+}
+
+.form-side {
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
+
+.form-side .subject-section {
+    margin-top: 1rem;
+}
+
+.form-side input {
+    font-size: 1rem;
+    margin-top: .5rem;
+    padding: 1rem 30%;
+    border-radius: .5rem;
+    outline: #ddd 1px solid;
+    border: none;
+}
+
+#btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: .3rem;
+    background-color: #1D4DF7;
+}
+
+#btn:hover {
+    background-color: #3e66f7;
+    cursor: pointer;
+}
+
+.image-side {
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.image-side h4 {
+    text-transform: capitalize;
+}
+
+.image-side h1 {
+    text-transform: uppercase;
+}
+
+.image-side img {
+    margin-top: 5px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Cover Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="form-page">
+        <div class="form-side">
+          <div class="roll-section">
+            <label for="roll">Roll</label>
+            <br />
+            <input type="text" placeholder="Enter you roll" id="inputRoll" />
+          </div>
+          <div class="subject-section">
+            <div class="subject-option">
+              <input type="radio" value="code" name="option" checked />
+              <label>Subject Code</label>
+              <input type="radio" value="name" name="option" />
+              <label>Subject Name</label>
+            </div>
+
+            <div class="subject-input">
+              <input
+                type="text"
+                placeholder="Enter subject code"
+                id="inputSubject"
+              />
+            </div>
+          </div>
+          <button id="btn">download</button>
+        </div>
+        <div class="image-side">
+          <h4>create your</h4>
+          <h1>assignment cover page</h1>
+          <h4>easy way</h4>
+          <img src="img/3dvector.png" alt="" />
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="data/bookData.js"></script>
+    <script src="data/studentData.js"></script>
+    <script src="data/teacherData.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
